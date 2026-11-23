@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171b19">
+  <meta name="description" content="Search the DST SKIN CATALOGUE Global Truck Online skin collection.">
+  <title>Search GTO Skins | DST SKIN CATALOGUE</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../shared/shared-assets/site-logo.png">
+  <link rel="stylesheet" href="../shared/shared-styles/gto.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-brand" href="../index.html">
+        <span>DST SKIN CATALOGUE</span>
+      </a>
+
+      <div class="site-nav-actions">
+        <a href="GTO-home.html" class="nav-link">GTO Home</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="search-page">
+    <section class="search-heading">
+      <div class="search-eyebrow">Global Truck Online</div>
+      <h1>Find your next skin.</h1>
+      <p>
+        Search the GTO collection by skin name, truck, brand, category,
+        or vehicle type.
+      </p>
+    </section>
+
+    <section class="search-box" aria-label="Search GTO skins">
+      <div class="search-input-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round"
+          aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="7.3"></circle>
+          <path d="m16.2 16.2 4.3 4.3"></path>
+        </svg>
+
+        <input
+          id="gto-search-input"
+          class="search-input"
+          type="text"
+          placeholder="Try Volvo, African Vibe, trailer..."
+          autocomplete="off"
+          aria-label="Search GTO skins"
+          aria-controls="gto-results-grid"
+          data-gto-search-input
+        >
+      </div>
+
+      <p class="search-hint">
+        Results update as you type. Multiple words are matched independently.
+      </p>
+    </section>
+
+    <section
+      class="results-section"
+      data-gto-results-section
+      aria-live="polite"
+      aria-atomic="false"
+      hidden
+    >
+      <div class="results-header">
+        <h2>
+          Search results
+          <span class="results-query" data-gto-results-query></span>
+        </h2>
+
+        <span
+          class="results-count"
+          data-gto-results-count
+        ></span>
+      </div>
+
+      <div
+        class="results-grid"
+        id="gto-results-grid"
+        data-gto-results-grid
+      ></div>
+    </section>
+
+    <section
+      class="results-section"
+      data-gto-default-state
+    >
+      <div class="results-header">
+        <h2>Ready to explore?</h2>
+      </div>
+
+      <div class="results-state">
+        <strong>Start with a search.</strong>
+        Enter a name, brand, truck model, or category above.
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-current-year></span> DST SKIN CATALOGUE</p>
+    <p>Global Truck Online collection</p>
+  </footer>
+
+  <script src="../shared/shared-js/common.js" defer></script>
+  <script src="../shared/shared-js/navigation.js" defer></script>
+  <script src="../shared/shared-js/search.js" defer></script>
+  <script src="../shared/shared-js/browse.js" defer></script>
+  <script src="../shared/shared-js/skin-renderer.js" defer></script>
+  <script src="GTO-js/GTO.js" defer></script>
+</body>
+</html>

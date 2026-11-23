@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171b19">
+  <meta name="description" content="View Global Truck Online skins at DST SKIN CATALOGUE.">
+  <title>GTO Skin Details | DST SKIN CATALOGUE</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../shared/shared-assets/site-logo.png">
+  <link rel="stylesheet" href="../shared/shared-styles/gto.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-brand" href="../index.html">
+        <span>DST SKIN CATALOGUE</span>
+      </a>
+
+      <div class="site-nav-actions">
+        <a href="GTO-home.html" class="nav-link">GTO Home</a>
+        <a href="GTO-search.html" class="nav-link">Search</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="skin-page">
+    <nav class="skin-breadcrumbs" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="GTO-home.html">GTO</a>
+      <span aria-hidden="true">/</span>
+      <span data-gto-breadcrumb-current>Skin details</span>
+    </nav>
+
+    <section data-gto-skin-content hidden>
+      <div class="skin-layout">
+        <div class="skin-visual">
+          <img
+            class="skin-image"
+            src=""
+            alt="GTO skin preview"
+            data-gto-skin-image
+          >
+
+          <div class="skin-image-caption">
+            Global Truck Online skin preview
+          </div>
+        </div>
+
+        <div class="skin-information">
+          <div class="skin-eyebrow">GTO Skin Collection</div>
+
+          <h1 class="skin-title" data-gto-skin-name>
+            Skin name
+          </h1>
+
+          <p class="skin-description" data-gto-skin-description>
+            Skin description will appear here.
+          </p>
+
+          <div class="skin-details" data-gto-skin-details>
+            <div class="detail-item" data-gto-detail="brand">
+              <span class="detail-label">Brand</span>
+              <span class="detail-value" data-gto-brand></span>
+            </div>
+
+            <div class="detail-item" data-gto-detail="vehicle">
+              <span class="detail-label">Vehicle</span>
+              <span class="detail-value" data-gto-vehicle></span>
+            </div>
+
+            <div class="detail-item" data-gto-detail="vehicleType">
+              <span class="detail-label">Vehicle type</span>
+              <span class="detail-value" data-gto-vehicle-type></span>
+            </div>
+
+            <div class="detail-item" data-gto-detail="part">
+              <span class="detail-label">Category</span>
+              <span class="detail-value" data-gto-part-type></span>
+            </div>
+          </div>
+
+          <section class="code-section" data-gto-code-section hidden>
+            <h2>Game skin code</h2>
+            <p class="code-description">
+              Copy the required code and use it in Global Truck Online.
+            </p>
+
+            <div class="code-list">
+              <div class="code-item" data-gto-code-item="single" hidden>
+                <span class="code-label">Skin code</span>
+                <code class="code-value" data-gto-skin-code></code>
+                <button
+                  type="button"
+                  class="copy-button"
+                  data-gto-copy="skin"
+                >Copy Code</button>
+              </div>
+
+              <div class="code-item" data-gto-code-item="head" hidden>
+                <span class="code-label">Head code</span>
+                <code class="code-value" data-gto-head-code></code>
+                <button
+                  type="button"
+                  class="copy-button"
+                  data-gto-copy="head"
+                >Copy Head</button>
+              </div>
+
+              <div class="code-item" data-gto-code-item="body" hidden>
+                <span class="code-label">Body code</span>
+                <code class="code-value" data-gto-body-code></code>
+                <button
+                  type="button"
+                  class="copy-button"
+                  data-gto-copy="body"
+                >Copy Body</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="skin-error" data-gto-skin-error hidden>
+      <strong data-gto-error-title>Skin not found</strong>
+      <span data-gto-error-message>
+        This skin may have been removed or the link may be incorrect.
+      </span>
+      <br>
+      <a href="GTO-home.html">Return to GTO collection</a>
+    </section>
+
+    <section class="skin-error" data-gto-skin-loading>
+      <strong>Loading skin...</strong>
+      Fetching the selected GTO skin details.
+    </section>
+
+    <div class="gto-explore-backbar" data-gto-skin-back-wrap hidden>
+      <button
+        type="button"
+        class="gto-explore-back-button"
+        data-gto-skin-back
+      >
+        <span aria-hidden="true">←</span>
+        <span>Back</span>
+      </button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-current-year></span> DST SKIN CATALOGUE</p>
+    <p>Global Truck Online collection</p>
+  </footer>
+
+  <script src="../shared/shared-js/common.js" defer></script>
+  <script src="../shared/shared-js/navigation.js" defer></script>
+  <script src="../shared/shared-js/search.js" defer></script>
+  <script src="../shared/shared-js/browse.js" defer></script>
+  <script src="../shared/shared-js/skin-renderer.js" defer></script>
+  <script src="GTO-js/GTO.js" defer></script>
+</body>
+</html>

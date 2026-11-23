@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171b19">
+  <meta name="description" content="Explore Global Truck Online skins by brand, part category and vehicle type at DST SKIN CATALOGUE.">
+
+  <title>Browse GTO Skins | DST SKIN CATALOGUE</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../shared/shared-assets/site-logo.png">
+  <link rel="stylesheet" href="../shared/shared-styles/gto.css">
+</head>
+
+<body>
+
+  <!-- TOP NAVIGATION -->
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+
+      <a class="site-brand" href="../index.html">
+        <span>DST SKIN CATALOGUE</span>
+      </a>
+
+      <div class="site-nav-actions">
+
+        <a href="./GTO-home.html" class="nav-link">
+          GTO Home
+        </a>
+
+        <a
+          class="gto-icon-button"
+          href="./GTO-search.html"
+          aria-label="Search GTO skins"
+          title="Search skins"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 4.5 4.5"></path>
+          </svg>
+        </a>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- BACK BUTTON -->
+  <div class="gto-explore-backbar">
+
+    <a
+      class="gto-explore-back-button"
+      href="./GTO-home.html"
+    >
+      <span aria-hidden="true">←</span>
+      <span>Back</span>
+    </a>
+
+  </div>
+
+
+  <!-- BROWSE PAGE CONTENT WRAPPER -->
+  <div class="gto-browse-content">
+
+    <main class="browse-page">
+
+      <!-- PAGE INTRODUCTION -->
+      <section class="browse-heading">
+
+        <div class="browse-eyebrow">
+          Global Truck Online
+        </div>
+
+        <h1>Browse the collection.</h1>
+
+        <p>
+          Explore the skins available in your selected collection.
+          Find the design you're looking for.
+        </p>
+
+      </section>
+
+
+      <!-- HIDDEN FILTER CONTAINERS
+           Retained for existing JavaScript compatibility -->
+      <div hidden aria-hidden="true">
+
+        <div
+          class="browse-options"
+          data-gto-part-options
+        ></div>
+
+        <div
+          class="browse-options brand-options"
+          data-gto-brand-options
+        ></div>
+
+        <div
+          class="browse-options"
+          data-gto-vehicle-options
+        ></div>
+
+      </div>
+
+
+      <!-- BROWSE RESULTS -->
+      <section
+        class="browse-results"
+        id="browse-results"
+        data-gto-browse-results
+        hidden
+        aria-live="polite"
+      >
+
+        <div class="results-topline">
+
+          <div>
+            <h2 data-gto-browse-title>
+              Collection
+            </h2>
+
+            <p
+              class="results-description"
+              data-gto-browse-description
+            ></p>
+          </div>
+
+          <span
+            class="results-count"
+            data-gto-browse-count
+          ></span>
+
+        </div>
+
+
+        <!-- SKIN COLLECTION GRID -->
+        <div
+          class="results-grid"
+          data-gto-browse-grid
+        >
+
+          <div class="results-state">
+            <strong>Loading collection...</strong>
+            Your matching skins will appear here.
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <p>
+      © <span data-current-year></span>
+      DST SKIN CATALOGUE
+    </p>
+
+    <p>
+      Global Truck Online collection
+    </p>
+
+  </footer>
+
+
+  <!-- SHARED SCRIPTS -->
+  <script src="../shared/shared-js/common.js" defer></script>
+  <script src="../shared/shared-js/navigation.js" defer></script>
+  <script src="../shared/shared-js/search.js" defer></script>
+  <script src="../shared/shared-js/browse.js" defer></script>
+  <script src="../shared/shared-js/skin-renderer.js" defer></script>
+
+  <!-- GTO SCRIPTS -->
+  <script src="./GTO-js/GTO.js" defer></script>
+
+</body>
+</html>

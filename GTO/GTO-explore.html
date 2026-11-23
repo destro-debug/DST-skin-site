@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11191f">
+
+  <meta
+    name="description"
+    content="Explore every custom Global Truck Online skin in the DST SKIN CATALOGUE, arranged alphabetically."
+  >
+
+  <title>Explore GTO Skins | DST SKIN CATALOGUE</title>
+
+  <link rel="icon" href="../shared/shared-assets/site-logo.png">
+  <link rel="stylesheet" href="../shared/shared-styles/gto.css">
+</head>
+
+<body>
+
+  <div class="gto-explore-page">
+
+    <!-- TOP NAVIGATION -->
+    <header class="gto-explore-topbar">
+
+      <a
+        class="gto-explore-brand"
+        href="../index.html"
+        aria-label="DST SKIN CATALOGUE starting page"
+      >
+        <img
+          class="gto-explore-logo"
+          src="../shared/shared-assets/site-logo.png"
+          alt=""
+          width="44"
+          height="44"
+        >
+
+        <span class="gto-explore-brand-name">
+          DST SKIN CATALOGUE
+        </span>
+      </a>
+
+      <nav
+        class="gto-explore-nav"
+        aria-label="Explore navigation"
+      >
+
+        <a
+          class="gto-explore-nav-link"
+          href="./GTO-home.html"
+        >
+          GTO Home
+        </a>
+
+        <a
+          class="gto-icon-button"
+          href="./GTO-search.html"
+          aria-label="Search GTO skins"
+          title="Search skins"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 4.5 4.5"></path>
+          </svg>
+        </a>
+
+      </nav>
+
+    </header>
+
+
+    <!-- SEPARATE BACK BUTTON SECTION -->
+    <div class="gto-explore-backbar">
+
+      <a
+        class="gto-explore-back-button"
+        href="./GTO-home.html"
+      >
+        <span aria-hidden="true">←</span>
+        <span>Back</span>
+      </a>
+
+    </div>
+
+
+    <!-- MAIN PAGE CONTENT -->
+    <main
+      class="gto-explore-main"
+      id="gto-explore-main"
+    >
+
+      <!-- INTRODUCTION -->
+      <section class="gto-explore-intro">
+
+        <p class="gto-explore-eyebrow">
+          GLOBAL TRUCK ONLINE
+        </p>
+
+        <h1 class="gto-explore-title">
+          Explore All Skins
+        </h1>
+
+        <p class="gto-explore-description">
+          Discover the complete GTO skin collection, all in one place.
+          Browse through every available design, arranged from A to Z.
+        </p>
+
+      </section>
+
+
+      <!-- ALL SKINS -->
+      <section
+        class="gto-explore-results"
+        id="gto-explore-results"
+        data-gto-explore-results
+        aria-labelledby="gto-explore-results-title"
+        aria-live="polite"
+      >
+
+        <div class="gto-explore-results-header">
+
+          <div class="gto-explore-results-heading">
+
+            <p class="gto-explore-section-label">
+              THE COLLECTION
+            </p>
+
+            <h2 id="gto-explore-results-title">
+              All GTO Skins
+            </h2>
+
+          </div>
+
+          <span
+            class="gto-explore-count"
+            data-gto-explore-count
+          >
+            0 skins
+          </span>
+
+        </div>
+
+
+        <!-- SKIN CARDS WILL BE GENERATED HERE -->
+        <div
+          class="gto-explore-grid"
+          id="gto-explore-grid"
+          data-gto-explore-grid
+        ></div>
+
+
+        <!-- EMPTY, LOADING AND ERROR STATES -->
+        <div
+          class="gto-explore-status"
+          data-gto-explore-status
+          role="status"
+          aria-live="polite"
+        >
+          <p data-gto-explore-status-message>
+            No skins have been added to the catalogue yet.
+          </p>
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="gto-explore-footer">
+
+      <div class="gto-explore-footer-brand">
+        DST SKIN CATALOGUE
+      </div>
+
+      <p class="gto-explore-footer-copy">
+        Global Truck Online Skin Collection
+      </p>
+
+      <p class="gto-explore-footer-copyright">
+        © <span data-gto-explore-year>2026</span>
+        DST SKIN CATALOGUE
+      </p>
+
+    </footer>
+
+  </div>
+
+
+  <!-- SHARED SCRIPTS -->
+  <script src="../shared/shared-js/common.js" defer></script>
+  <script src="../shared/shared-js/navigation.js" defer></script>
+  <script src="../shared/shared-js/search.js" defer></script>
+  <script src="../shared/shared-js/browse.js" defer></script>
+  <script src="../shared/shared-js/skin-renderer.js" defer></script>
+
+  <!-- GTO SCRIPTS -->
+  <script src="./GTO-js/GTO.js" defer></script>
+  <script src="./GTO-js/GTO-explore.js" defer></script>
+
+</body>
+</html>
