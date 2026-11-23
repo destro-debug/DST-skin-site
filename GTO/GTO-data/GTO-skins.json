@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aurelius-x-volvo-fh-6x2",
+    "skinName": "Aurelius X",
+    "vehicleName": "Volvo FH",
+    "displayName": "Aurelius X | Volvo FH | 6x2 Truck Cabin",
+    "brand": "volvo",
+    "vehicleType": "6x2-truck",
+    "partType": "cabin",
+    "imageUrl": "https://i.imgur.com/NBD4smH.jpeg",
+    "description": "An elegant, gold-themed premium cabin skin set against a deep, dark background. Aurelius X blends regal aesthetics with bold detailing, delivering a luxurious and commanding appearance for the Volvo FH.",
+    "skinCode": "yYeRsjL.jpeg"
+  },
+  
+  {
+  "id": "vantor-volvo-vm-box-truck",
+  "skinName": "Vantor",
+  "vehicleName": "Volvo VM",
+  "displayName": "Vantor | Volvo VM | Box Truck",
+  "brand": "volvo",
+  "vehicleType": "box-truck",
+  "partType": "cabin",
+  "imageUrl": "https://i.imgur.com/4uROmNK.jpeg",
+  "description": "Vantor combines a matte graphite foundation with brushed titanium surfaces and intricate carbon-fibre detailing. Electric-blue accents cut through the dark metallic finish, creating a refined, futuristic design with a bold industrial character.",
+  "headCode": "9YXslhM.jpeg",
+  "bodyCode": "X7RJja3.jpeg"
+},
+{
+  "id": "golden-edges-volvo-fh-mirror",
+  "skinName": "Golden Edges",
+  "compatibleVehicle": "Volvo FH",
+  "displayName": "Golden Edges | Volvo FH | Mirror",
+  "partType": "mirror",
+  "brand": "volvo",
+  "imageUrl": "https://i.imgur.com/EFI0Hnx.jpeg",
+  "description": "Golden Edges brings a refined touch of luxury to the Volvo FH mirrors, featuring elegant golden accents that add definition, contrast and a premium finish to the truck's exterior.",
+  "skinCode": "U454Huo.jpeg"
+}
+,
+{
+  "id": "aurelius-x-box-trailer",
+  "skinName": "Aurelius X",
+  "vehicleName": "Box Trailer",
+  "displayName": "Aurelius X | Box Trailer",
+  "aliases": [
+    "Baú",
+    "Reboque Baú"
+  ],
+  "partType": "trailer",
+  "imageUrl": "https://i.imgur.com/3LTnrMR.jpeg",
+  "description": "An elegant, gold-themed premium trailer skin set against a deep, dark background. Aurelius X combines regal aesthetics with bold detailing, giving the Box Trailer a luxurious and commanding appearance.",
+  "skinCode": "vAMPDtn.jpeg"
+}
+]
