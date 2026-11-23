@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#111714">
+    <meta name="robots" content="noindex">
+
+    <title>You're Offline | DST SKIN CATALOGUE</title>
+
+    <link rel="icon" href="shared/shared-assets/site-logo.png">
+
+    <link rel="stylesheet" href="shared/shared-styles/index.css">
+</head>
+
+<body class="landing-page offline-page" data-page="home">
+
+    <main class="offline-main">
+
+        <section class="offline-content" aria-labelledby="offline-title">
+
+            <img
+                src="shared/shared-assets/site-logo.png"
+                class="offline-logo"
+                alt="DST Skin Catalogue logo"
+                width="76"
+                height="76"
+            >
+
+            <div class="offline-status">
+                Connection unavailable
+            </div>
+
+            <h1 id="offline-title">
+                You're off the grid.
+            </h1>
+
+            <p>
+                DST SKIN CATALOGUE couldn't reach the network.
+                Check your connection and try again. Previously cached
+                pages may still be available.
+            </p>
+
+            <div class="offline-actions">
+
+                <button type="button" id="retry-button">
+                    Try again
+                </button>
+
+                <a class="offline-home" href="./index.html">
+                    Back to starting page
+                </a>
+
+            </div>
+
+            <div class="offline-note">
+                DST SKIN CATALOGUE
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        document
+            .getElementById("retry-button")
+            .addEventListener("click", () => {
+                window.location.reload();
+            });
+    </script>
+
+</body>
+</html>
