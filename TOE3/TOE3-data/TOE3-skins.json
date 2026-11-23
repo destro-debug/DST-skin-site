@@ -1,0 +1,26 @@
+[
+  {
+  "id": "toe3-cabin-ashborn-moon-tha-001",
+  "skinName": "Ashborn",
+  "vehicleName": "Moon THA",
+  "displayName": "Ashborn | Moon THA",
+  "partType": "cabin",
+  "brand": "moon",
+  "imageUrl": "https://i.imgur.com/Vn8Mzmy.jpeg",
+  "templateUrl": "https://i.imgur.com/sxwOgX5.jpeg",
+  "description": "A fiery PHONEHIX-inspired theme featuring blazing flames and a bold, dark aesthetic.",
+  "addedAt": "2026-11-18T20:25:00Z"
+},
+{
+  "id": "toe3-cabin-culers-ivora-s-line-001",
+  "skinName": "Culers",
+  "vehicleName": "Ivora S-LINE",
+  "displayName": "Culers | Ivora S-LINE",
+  "partType": "cabin",
+  "brand": "ivora",
+  "imageUrl": "https://i.imgur.com/7uyT8Wa.jpeg",
+  "templateUrl": "https://i.imgur.com/taqXwdg.jpeg",
+  "description": "A bold FC Barcelona-inspired design celebrating the club's iconic Blaugrana colours, featuring a striking blend of blue and red for a true Culers identity.",
+  "addedAt": "2026-11-23T08:35:00Z"
+}
+]
