@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11191f">
+
+  <meta
+    name="description"
+    content="Explore every custom Truckers of Europe 3 skin in the DST SKIN CATALOGUE, arranged alphabetically."
+  >
+
+  <title>Explore TOE3 Skins | DST SKIN CATALOGUE</title>
+
+  <link rel="icon" href="../shared/shared-assets/site-logo.png">
+  <link rel="stylesheet" href="../shared/shared-styles/toe3.css">
+</head>
+
+<body data-page="toe3">
+
+  <div class="toe3-explore-page">
+
+    <!-- TOP NAVIGATION -->
+    <header class="toe3-explore-topbar">
+
+      <a
+        class="toe3-explore-brand"
+        href="../index.html"
+        aria-label="DST SKIN CATALOGUE starting page"
+      >
+        <img
+          class="toe3-explore-logo"
+          src="../shared/shared-assets/site-logo.png"
+          alt=""
+          width="44"
+          height="44"
+        >
+
+        <span class="toe3-explore-brand-name">
+          DST SKIN CATALOGUE
+        </span>
+      </a>
+
+      <nav
+        class="toe3-explore-nav"
+        aria-label="Explore navigation"
+      >
+
+        <a
+          class="toe3-explore-nav-link"
+          href="./TOE3-home.html"
+        >
+          TOE3 Home
+        </a>
+
+        <a
+          class="toe3-explore-icon-button"
+          href="./TOE3-search.html"
+          aria-label="Search TOE3 skins"
+          title="Search skins"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 4.5 4.5"></path>
+          </svg>
+        </a>
+
+      </nav>
+
+    </header>
+
+
+    <!-- SEPARATE BACK BUTTON SECTION -->
+    <div class="toe3-explore-backbar">
+
+      <a
+        class="toe3-explore-back-button"
+        href="./TOE3-home.html"
+      >
+        <span aria-hidden="true">←</span>
+        <span>Back</span>
+      </a>
+
+    </div>
+
+
+    <!-- MAIN PAGE CONTENT -->
+    <main
+      class="toe3-explore-main"
+      id="toe3-explore-main"
+    >
+
+      <!-- INTRODUCTION -->
+      <section class="toe3-explore-intro">
+
+        <p class="toe3-explore-eyebrow">
+          TRUCKERS OF EUROPE 3
+        </p>
+
+        <h1 class="toe3-explore-title">
+          Explore All Skins
+        </h1>
+
+        <p class="toe3-explore-description">
+          Discover the complete TOE3 skin collection, all in one place.
+          Browse through every available design, arranged from A to Z.
+        </p>
+
+      </section>
+
+
+      <!-- ALL SKINS -->
+      <section
+        class="toe3-explore-results"
+        id="toe3-explore-results"
+        data-toe3-explore-results
+        aria-labelledby="toe3-explore-results-title"
+        aria-live="polite"
+      >
+
+        <div class="toe3-explore-results-header">
+
+          <div class="toe3-explore-results-heading">
+
+            <p class="toe3-explore-section-label">
+              THE COLLECTION
+            </p>
+
+            <h2 id="toe3-explore-results-title">
+              All TOE3 Skins
+            </h2>
+
+          </div>
+
+          <span
+            class="toe3-explore-count"
+            data-toe3-explore-count
+          >
+            0 skins
+          </span>
+
+        </div>
+
+
+        <!-- SKIN CARDS WILL BE GENERATED HERE -->
+        <div
+          class="toe3-explore-grid"
+          id="toe3-explore-grid"
+          data-toe3-explore-grid
+        ></div>
+
+
+        <!-- EMPTY, LOADING AND ERROR STATES -->
+        <div
+          class="toe3-explore-status"
+          data-toe3-explore-status
+          role="status"
+          aria-live="polite"
+        >
+          <p data-toe3-explore-status-message>
+            Loading TOE3 skins...
+          </p>
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="toe3-explore-footer">
+
+      <div class="toe3-explore-footer-brand">
+        DST SKIN CATALOGUE
+      </div>
+
+      <p class="toe3-explore-footer-copy">
+        Truckers of Europe 3 Skin Collection
+      </p>
+
+      <p class="toe3-explore-footer-copyright">
+        © <span data-toe3-explore-year>2026</span>
+        DST SKIN CATALOGUE
+      </p>
+
+    </footer>
+
+  </div>
+
+
+  <!-- SHARED SCRIPTS -->
+  <script src="../shared/shared-js/common.js" defer></script>
+  <script src="../shared/shared-js/navigation.js" defer></script>
+  <script src="../shared/shared-js/search.js" defer></script>
+  <script src="../shared/shared-js/browse.js" defer></script>
+  <script src="../shared/shared-js/skin-renderer.js" defer></script>
+
+  <!-- TOE3 SCRIPTS -->
+  <script src="./TOE3-js/TOE3.js" defer></script>
+  <script src="./TOE3-js/TOE3-explore.js" defer></script>
+
+</body>
+</html>

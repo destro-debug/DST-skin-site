@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#151a18">
+  <meta name="description" content="Explore Truckers of Europe 3 skin collections in the DST SKIN CATALOGUE.">
+
+  <title>TOE3 Collections | DST SKIN CATALOGUE</title>
+
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="icon" href="../shared/shared-assets/site-logo.png">
+  <link rel="stylesheet" href="../shared/shared-styles/toe3.css">
+</head>
+
+<body data-page="toe3">
+
+  <!-- TOP NAVIGATION -->
+
+  <header class="toe-browse-header">
+
+    <nav class="toe-browse-nav" aria-label="Main navigation">
+
+      <a class="toe-browse-brand" href="../index.html">
+        <span>DST SKIN CATALOGUE</span>
+      </a>
+
+      <div class="toe-browse-nav-actions">
+
+        <a
+          href="./TOE3-home.html"
+          class="toe-browse-nav-link"
+        >
+          TOE3 Home
+        </a>
+
+        <a
+          class="toe-browse-search-button"
+          href="./TOE3-search.html"
+          aria-label="Search TOE3 skins"
+          title="Search skins"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 4.5 4.5"></path>
+          </svg>
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- BACK BUTTON -->
+
+  <div class="toe-browse-backbar">
+
+    <button
+      type="button"
+      class="toe-browse-back-button"
+      data-back-button
+      data-back-fallback="TOE3-home.html"
+      aria-label="Go back"
+    >
+      <span aria-hidden="true">←</span>
+      <span>Back</span>
+    </button>
+
+  </div>
+
+
+  <!-- BROWSE PAGE CONTENT -->
+
+  <main class="toe-browse-page">
+
+    <section
+      class="toe-browse-results"
+      data-toe3-browse-results
+      hidden
+      aria-label="Selected skin collection"
+    >
+
+      <div class="toe-results-heading">
+
+        <div>
+          <h2 data-toe3-browse-title>
+            Collection
+          </h2>
+
+          <p data-toe3-browse-description></p>
+        </div>
+
+        <span
+          class="toe-results-count"
+          data-toe3-browse-count
+        ></span>
+
+      </div>
+
+      <div
+        class="toe-results-grid"
+        data-toe3-browse-grid
+        aria-live="polite"
+      ></div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="toe-browse-footer">
+
+    <p>
+      <a href="TOE3-home.html">TOE3 Home</a>
+      ·
+      <a href="../index.html">DST SKIN CATALOGUE</a>
+    </p>
+
+    <p>
+      © <span data-current-year>2026</span>
+      DST SKIN CATALOGUE
+    </p>
+
+  </footer>
+
+
+  <!-- SHARED SCRIPTS -->
+
+  <script src="../shared/shared-js/common.js" defer></script>
+  <script src="../shared/shared-js/navigation.js" defer></script>
+  <script src="../shared/shared-js/search.js" defer></script>
+  <script src="../shared/shared-js/browse.js" defer></script>
+  <script src="../shared/shared-js/skin-renderer.js" defer></script>
+
+  <!-- TOE3 SCRIPTS -->
+
+  <script src="TOE3-js/TOE3.js" defer></script>
+
+</body>
+</html>
