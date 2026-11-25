@@ -22,5 +22,15 @@
   "templateUrl": "https://i.imgur.com/taqXwdg.jpeg",
   "description": "A bold FC Barcelona-inspired design celebrating the club's iconic Blaugrana colours, featuring a striking blend of blue and red for a true Culers identity.",
   "addedAt": "2026-11-23T08:35:00Z"
-}
+},
+"id": "toe3-hyperion-x-ivora-s-line",
+    "skinName": "Hyperion X",
+    "vehicleName": "Ivora S-LINE",
+    "displayName": "Hyperion X | Ivora S-LINE",
+    "partType": "cabin",
+    "brand": "ivora",
+    "imageUrl": "https://i.imgur.com/QZmlbGT.jpeg",
+    "templateUrl": "https://i.imgur.com/ffYSFG1.jpeg",
+    "description": "Forged in darkness, awakened by lightning. Electric violet meets unstoppable blue fury. Chrome armor. Neon veins. Pure domination. Not built to follow the road, built to own it. HYPERION X: THE FUTURE HAS ARRIVED."
+  }
 ]
