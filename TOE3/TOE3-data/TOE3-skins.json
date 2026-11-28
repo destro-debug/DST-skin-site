@@ -1,5 +1,28 @@
 [
   {
+    "id": "toe3-um3-moon-thx",
+    "skinName": "UM3",
+    "vehicleName": "Moon THX",
+    "displayName": "UM3 | Moon THX",
+    "partType": "cabin",
+    "brand": "moon",
+    "imageUrl": "https://i.imgur.com/orprNcb.jpeg",
+    "templateUrl": "https://i.imgur.com/CUN3BaR.jpeg",
+    "description": "Inspired by Akaza, the fearsome Upper Rank Three. Features striking blue markings and crimson-inspired details. Brings his martial arts legacy to the truck's design. A fierce presence that commands attention on the road."
+  },
+  {
+    "id": "toe3-the-honored-one-moon-thx",
+    "skinName": "The Honored One",
+    "vehicleName": "Moon THX",
+    "displayName": "The Honored One | Moon THX",
+    "partType": "cabin",
+    "brand": "moon",
+    "imageUrl": "https://i.imgur.com/wXlFmie.jpeg",
+    "templateUrl": "https://i.imgur.com/qWzbU5i.jpeg",
+    "description": "Inspired by Satoru Gojo, the strongest sorcerer or the modern era. A striking design reflecting his limitless power. Brings his iconic presence to the truck. A true symbol of absolute superiority on the road."
+  }
+  ,
+  {
   "id": "toe3-cabin-ashborn-moon-tha-001",
   "skinName": "Ashborn",
   "vehicleName": "Moon THA",
